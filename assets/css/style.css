@@ -1,0 +1,61 @@
+
+#header {
+	background-color: #fff;
+	border-color: #ccc;
+	width: 100%;
+}
+
+#aboutportcon{
+	float: right;
+	width: 270px;
+}
+
+#aboutportcontext{
+	color: #777;
+}
+
+#yourname {
+	background-color: #4aaaa5;
+	width: 270px;
+
+}
+
+#yournametext{
+	font-family: 'Georgia', Times, Times New Roman, serif;;
+	font-color: #fff;
+}
+
+#maincontentsection{
+	background-color: rgb(236, 236, 236);
+	border-color: #ddd;
+	width: 100%;
+}
+
+#aboutme{
+	width: 800px;
+}
+#aboutmetext{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#connectwithme{
+	width: 270px;
+	float: right;
+}
+
+#connectwithmetext {
+	color: #4aaaa5;
+}
+
+#footersection{
+	background-color: #666;
+	width: 100%;
+	padding: 10px;
+	border-color: #4aaaa5;
+	border-style: thick solid 5px;
+}
+
+#footersectiontext {
+	color: #777;
+}
