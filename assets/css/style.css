@@ -39,9 +39,12 @@
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+
+
 #connectwithme{
 	width: 270px;
 	float: right;
+	margin-bottom: 30px;
 }
 
 #connectwithmetext {
@@ -57,5 +60,29 @@
 }
 
 #footersectiontext {
-	color: #777;
+	color: rgb(122, 134, 139);
+	text-align: center;
+}
+
+/* css for images below here */
+
+#cecilyphoto {
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+}
+
+#fblogo {
+	width: 50px;
+	height: 50px;
+}
+
+#Githublogo {
+	width: 50px;
+	height: 50px;
+}
+
+#LinkLogo {
+	width: 50px;
+	height: 50px;
 }
