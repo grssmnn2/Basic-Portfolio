@@ -229,6 +229,9 @@ span{
 
 }
 
+#trivia{
+	top: 150px;
+}
 
 #cat3{
 	float: left;
@@ -239,12 +242,23 @@ span{
 
 }
 
+#riw{
+	top: 150px;
+	
+}
+
 #cat4{
 	float: left;
 	width: 200px;
 	height: 200px;
 	
 
+}
+
+#rps{
+	float: left;
+	clear: left;
+	top: 300px;
 }
 
 #cat5{
