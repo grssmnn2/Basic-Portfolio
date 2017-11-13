@@ -165,6 +165,7 @@ span{
 	position: relative;
 	left: 50px;
 	border: 1px solid rgb(229, 229, 229);
+	box-sizing: border-box;
 
 
 }
@@ -175,9 +176,16 @@ span{
 	border-bottom: 1px solid rgb(229, 229, 229);
 	padding-bottom: 5px;
 
+}
 
+.placement{
+	width: 50%;
+	float: left;
 
 }
+
+
+
 
 .container{
 	z-index: 100;
@@ -190,39 +198,37 @@ span{
 	position: relative;
 	text-align: center;
 
-
-
-
 }
 
 .cat{
 	max-width: 250px;
 	max-height: 200px;
 	margin: 20px;
-	position: absolute;
-	display: block;
+	position: relative;
+	z-index: 50;
 }
 
 #cat1{
+	bottom: 45px;
 	left: 25px;
 	
 }
 
 #cat2{
 	left: 325px;
-	bottom: 25px;
+	bottom: 115px;
 }
 
 
 #cat3{
 	left: 25px;
-	bottom: -350px;
+	bottom: -30px;
 
 }
 
 #cat4{
 	left: 325px;
-	bottom: -200px;
+	bottom: 20px;
 }
 
 #rps{
@@ -231,7 +237,7 @@ span{
 
 #cat5{
 	left: 25px;
-	bottom: -50px;
+	bottom: -125px;
 }
 /*End specific to portfolio page code */
 
