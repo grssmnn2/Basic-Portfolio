@@ -12,6 +12,8 @@ body{
 	background-color: rgb(236, 236, 236);
 }
 
+/*About Portfolio Contact Links */
+
 #aboutportcon{
 	float: right;
 	width: 270px;
@@ -30,6 +32,7 @@ a:hover { text-decoration: none; color: rgb(174, 169, 161); }
 a:focus { text-decoration: none; color: rgb(174, 169, 161); }
 a:hover, a:active { text-decoration: none; color:black }
 
+/*Name Box*/
 #yourname {
 	background-color: #4aaaa5;
 	width: 270px;
@@ -45,6 +48,8 @@ a:hover, a:active { text-decoration: none; color:black }
 	font-color: #fff;
 	text-align: center;
 }
+
+/*Main Content*/
 
 #maincontentsection{
 	background-color: rgb(236, 236, 236);
@@ -73,6 +78,16 @@ a:hover, a:active { text-decoration: none; color:black }
 	
 
 }
+
+#cecilyphoto {
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	align-self: left;
+	margin: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #aboutmetext{
 	overflow-wrap: break-word;
 	color: #4aaaa5;
@@ -88,7 +103,7 @@ a:hover, a:active { text-decoration: none; color:black }
 	text-align: left;
 	
 }
-/*End specific to About Me Page */
+
 
 
 /* Specific to Contact Form Page */
@@ -149,7 +164,7 @@ span{
 
 }
 
-/* End specific to contact form page */
+
 
 /*Specific to Portfolio Page */
 #portfoliosection{
@@ -179,7 +194,7 @@ span{
 }
 
 
-.container{
+.container {
 	z-index: 100;
 	background-color: #4aaaa5;
 	max-width: 200px;
@@ -188,8 +203,6 @@ span{
 	position: relative;
 	margin: 20px;
 	
-	
-
 }
 
 .container p{
@@ -205,69 +218,41 @@ span{
 	
 }
 
-}
-
 .container img{
-	position: relative;
+	/*
+	position: relative; */
 	z-index: 25;
 	width: 200px;
 	height: 200px;
 	
 }
 
-
-#cat1{
+#cat1, #cat2, #cat3, #cat4, #cat5{
 	width: 200px;
 	height: 200px;
+}
+
+
+#cat2, #cat3, #cat4, #rps{
+	float: left;
 	
 }
 
-#cat2{
-	float: left;
-	width: 200px;
-	height: 200px;
-
-}
-
-#trivia{
+#trivia, #riw{
 	top: 150px;
 }
 
-#cat3{
-	float: left;
+#cat3, #cat5, #rps{
 	clear: left;
-	width: 200px;
-	height: 200px;
 	
-
-}
-
-#riw{
-	top: 150px;
-	
-}
-
-#cat4{
-	float: left;
-	width: 200px;
-	height: 200px;
-	
-
 }
 
 #rps{
-	float: left;
-	clear: left;
 	top: 300px;
 }
 
-#cat5{
-	clear: left;
-	width: 200px;
-	height: 200px;
 
-}
-/*End specific to portfolio page code */
+/*Connect with me box with links to social media */
 
 #connectwithme{
 	width: 270px;
@@ -288,6 +273,17 @@ span{
 	
 }
 
+
+#sologo, #Githublogo, #LinkLogo {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	left: 40px;
+}
+
+/*footer section*/
+
 #footersection{
 	background-color: #666;
 	width: 100%;
@@ -306,24 +302,9 @@ span{
 
 }
 
-/* css for images below here */
 
-#cecilyphoto {
-	width: 250px;
-	height: 200px;
-	display: inline-block;
-	align-self: left;
-	margin: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-#sologo, #Githublogo, #LinkLogo {
-	width: 50px;
-	height: 50px;
-	margin: 0 auto;
-	position: relative;
-	left: 40px;
-}
+
 
 
     
